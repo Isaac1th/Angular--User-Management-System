@@ -17,7 +17,7 @@ export class UsersService {
 
     // MY TESTS
     console.log(this.activeUsers);
-    console.log("number of active users: " + this.activeUsers.length);
+    console.log("Number of active users: " + this.activeUsers.length);
   }
 
   setToActive(id: number) {
@@ -27,6 +27,6 @@ export class UsersService {
 
     // MY TESTS
     console.log(this.inactiveUsers);
-    console.log("number of inactive users: " + this.inactiveUsers.length);
+    console.log("Number of inactive users: " + this.inactiveUsers.length);
   }
 }
